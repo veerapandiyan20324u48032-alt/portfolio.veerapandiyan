@@ -1,4 +1,5 @@
-// Simple JavaScript example (you can expand this later)
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Portfolio site loaded");
+// Dark / Light Mode Toggle
+const toggleBtn = document.getElementById('theme-toggle');
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
 });
