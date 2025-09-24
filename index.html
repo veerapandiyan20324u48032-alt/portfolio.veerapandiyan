@@ -3,46 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
+  <title>veerapandiyan Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="theme-toggle">🌓</button></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m a developer passionate about building cool stuff on the web. This is my portfolio.</p>
-  </section>
+  <main>
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer passionate about creating clean and user-friendly websites. 
+           I specialize in front-end development and love learning new technologies.</p>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Project 1</h3>
-      <p>Description of your project.</p>
-      <a href="#">View Project</a>
-    </div>
-    <!-- Add more projects here -->
-  </section>
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <div class="project">
+            <h3>Movie Search App</h3>
+            <p>A React app using the OMDB API to search for movies with ratings and posters.</p>
+          </div>
+          <div class="project">
+            <h3>Booking System</h3>
+            <p>A full-stack booking system for hotel rooms and doctor appointments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
-  </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email: 
+          <a href="mailto:veerapandiyan@gmail.com">veerapandiyan@gmail.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Your Name</p>
+    <div class="container">
+      <p>&copy; 2025 veerapandiyan| Built with ❤️</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
